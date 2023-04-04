@@ -1,2 +1,2 @@
-# Co-RCGN
+# Co-RGCN
 The codes for Co-RGCN model
