@@ -10,7 +10,7 @@ In the following, we will guide you how to use this repository step by step.
 
 ## Architecture
 
-![](.\Figures\fig1.png)
+<img src="Figures\fig1.png">
 
 ## Preparation
 
