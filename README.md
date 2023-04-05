@@ -32,23 +32,12 @@ We highly suggest you using [Anaconda](https://www.anaconda.com/) to manage your
 ## How to run it
 The script **train.py** acts as a main function to the project, you can run the experiments by the following commands.
 ```Shell
-# MixATIS dataset (ON GeForce RTX2080TI)
+# MixATIS dataset (ON GeForce RTX3090)
 python train.py -g -bs=16 -dd=./data/MixATIS -sd=./save/MixATIS -lod=./log/MixSNIPS
 
-# MixSNIPS dataset (ON TITAN Xp)
+# MixSNIPS dataset (ON GeForce RTX3090)
 python train.py -g -bs=16 -dd=./data/MixSNIPS  -sd=./save/MixSNIPS -lod=./log/MixATIS
 ```
-
-You can directly load the best models we saved:
-```Shell
-# MixATIS dataset
-python train.py -g -ne=0 -dd=./data/MixATIS -sd=./save/MixATIS_best
-
-# MixSNIPS dataset
-python train.py -g -ne=0 -dd=./data/MixSNIPS -sd=./save/MixSNIPS_best
-```
-
-
 
 If you have any question, please issue the project or email [me](mailto:wqp@mail2.gdut.edu.cn)  and we will reply you soon.
 
