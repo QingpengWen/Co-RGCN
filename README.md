@@ -41,3 +41,6 @@ python train.py -g -bs=16 -dd=./data/MixSNIPS  -sd=./save/MixSNIPS -lod=./log/Mi
 
 If you have any question, please issue the project or email [me](mailto:wqp@mail2.gdut.edu.cn)  and we will reply you soon.
 
+## Acknowledgement
+
+This work was supported in part by the National Science Foundation of China under Grant 62172111, in part by the Natural Science Foundation of Guangdong Province under Grant 2019A1515011056, in part by the Key technology project of Shunde District under Grant 2130218003002.
