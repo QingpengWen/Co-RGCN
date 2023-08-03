@@ -1,6 +1,6 @@
 # **Co-RGCN: A Bi-path GCN-based Co-Regression model for Multi-intent Detection and Slot Filling**
 
-This repository contains the official `PyTorch` implementation of the paper: 
+This repository contains the official `PyTorch` implementation of the paper in the 32nd International Conference on Artificial Neural Networks (***ICANN2023***): 
 
 **Co-RGCN: A Bi-path GCN-based Co-Regression model for Multi-intent Detection and Slot Filling**.
 
