@@ -1,8 +1,8 @@
 # **Co-RGCN: A Bi-path GCN-based Co-Regression model for Multi-intent Detection and Slot Filling**
 
-This repository contains the official `PyTorch` implementation of the paper in the 32nd International Conference on Artificial Neural Networks, which collected at Artificial Neural Networks and Machine Learning (***[ICANN2023](https://link.springer.com/chapter/10.1007/978-3-031-44216-2_26)***): 
+This repository contains the official `PyTorch` implementation of the paper in the 32nd International Conference on Artificial Neural Networks, which collected at Artificial Neural Networks and Machine Learning (***ICANN2023***): 
 
-**Co-RGCN: A Bi-path GCN-based Co-Regression model for Multi-intent Detection and Slot Filling**.
+**[Co-RGCN: A Bi-path GCN-based Co-Regression model for Multi-intent Detection and Slot Filling](https://link.springer.com/chapter/10.1007/978-3-031-44216-2_26)**.
 
 [Qingpeng Wen](mailto:wqp@mail2.gdut.edu.cn), [Bi Zeng](mailto:zb9215@gdut.edu.cn), [Pengfei Wei](mailto:wpf@gdut.edu.cn).
 
@@ -47,19 +47,36 @@ This work was supported in part by the National Science Foundation of China unde
 
 ## Cite this paper
 
-@InProceedings{[10.1007/978-3-031-44216-2_26](https://doi.org/10.1007/978-3-031-44216-2_26),
+@InProceedings{
+
+[10.1007/978-3-031-44216-2_26](https://doi.org/10.1007/978-3-031-44216-2_26),
+
 author="Wen, Qingpeng
+
 and Zeng, Bi
+
 and Wei, Pengfei",
+
 editor="Iliadis, Lazaros
+
 and Papaleonidas, Antonios
+
 and Angelov, Plamen
+
 and Jayne, Chrisina",
+
 title="Co-RGCN: A Bi-path GCN-Based Co-Regression Model for Multi-intent Detection and Slot Filling",
+
 booktitle="Artificial Neural Networks and Machine Learning -- ICANN 2023",
+
 year="2023",
+
 publisher="Springer Nature Switzerland",
+
 address="Cham",
+
 pages="316--327",
+
 isbn="978-3-031-44216-2"
+
 }
