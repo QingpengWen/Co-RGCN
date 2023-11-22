@@ -16,6 +16,8 @@ from utils.loader import DatasetManager
 from utils.process import Processor
 from utils.config import *
 import fitlog
+import warnings
+warnings.filterwarnings("ignore")
 
 model_file_path = r"sss"
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
