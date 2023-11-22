@@ -22,7 +22,11 @@ warnings.filterwarnings("ignore")
 model_file_path = r"sss"
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 if __name__ == "__main__":
-    fitlog.set_log_dir("logs/")
+    # fitlog.set_log_dir("logs/")
+    if 'SNIPS' in args.data_dir:
+        fitlog.set_log_dir("mixsnips_logs/")
+    if 'ATIS' in args.data_dir:
+        fitlog.set_log_dir("mixatis_logs/")
     fitlog.add_hyper(args)
     fitlog.add_hyper_in_file(__file__)
     args = parser.parse_args()
